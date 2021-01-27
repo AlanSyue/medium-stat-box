@@ -2,7 +2,6 @@
    <img src="https://i.imgur.com/SNyY96b.png" alt="screenshot" width="500">
   <h3 align="center">📌 Medium Stat Box</h3>
 </p>
-
 <p align="center">
    <img src="https://img.shields.io/badge/language-typescript-blue?style"/>
    <img src="https://img.shields.io/github/stars/kylemocode/medium-stat-box"/>
@@ -21,6 +20,7 @@
 This project uses Medium RSS API to get personal profile data and uses cheerio to crawl more details such as follower count and claps of articles. The following details will be displayed in pinned gist:
 - Medium username and number of followers
 - Latest 3 articles and their claps count
+
 
 > warning: medium articles with no categories will be filtered
 
