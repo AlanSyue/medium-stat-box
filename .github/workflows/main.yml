@@ -16,7 +16,7 @@ jobs:
       - name: install dependencies
         run: npm install
       - name: Update gist
-        uses: kylemocode/medium-stat-box@master
+        uses: alansyue/medium-stat-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
